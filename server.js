@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // ミドルウェアの設定
-app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
@@ -55,7 +55,7 @@ ${message}
 
 // ルートパスのハンドリング
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.listen(port, () => {
