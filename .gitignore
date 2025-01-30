@@ -1,3 +1,25 @@
-node_modules
-.env 
-.vercel
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# 依存関係
+/node_modules
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# エディタ設定
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS関連
+.DS_Store
+Thumbs.db
