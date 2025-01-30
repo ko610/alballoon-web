@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: alballoon-support
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: GMAIL_USER
+        sync: false
+      - key: GMAIL_PASS
+        sync: false 
