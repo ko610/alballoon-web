@@ -211,3 +211,42 @@ footer {
     color: #721c24;
     border: 1px solid #f5c6cb;
 }
+
+/* プライバシーポリシーページのスタイル */
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.privacy-content h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.privacy-content section {
+    margin-bottom: 40px;
+}
+
+.privacy-content h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.privacy-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.privacy-content li {
+    margin-bottom: 10px;
+}
+
+.privacy-content a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.privacy-content a:hover {
+    text-decoration: underline;
+}
