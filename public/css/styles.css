@@ -178,6 +178,7 @@ footer .btn-box a {
     text-decoration: none;
     color: #888;
     padding: 4px;
+    margin: 0 5px;
 }
 
 @media (max-width: 768px) {
