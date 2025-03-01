@@ -169,6 +169,10 @@ footer {
     margin-top: 3rem;
 }
 
+footer .btn-box {
+    display: flex;
+}
+
 @media (max-width: 768px) {
     .features {
         grid-template-columns: 1fr;
