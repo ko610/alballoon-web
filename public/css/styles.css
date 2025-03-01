@@ -171,6 +171,13 @@ footer {
 
 footer .btn-box {
     display: flex;
+    justify-content: center;
+}
+
+footer .btn-box a {
+    text-decoration: none;
+    color: #888;
+    padding: 4px;
 }
 
 @media (max-width: 768px) {
