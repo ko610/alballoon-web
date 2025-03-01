@@ -63,6 +63,11 @@ app.get('/privacy', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'privacy.html'));
 });
 
+// プライバシーポリシーページのルート
+app.get('/terms', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'terms.html'));
+});
+
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`);
 }); 
